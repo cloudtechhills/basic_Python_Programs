@@ -26,7 +26,7 @@ sender_email = str(input("Enter sender's email address: ")) #SENDER'S EMAIL ADDR
 password = getpass(prompt="Enter your Gmail account password: ") 
 receiver_email = str(input("Enter receiver's email address: "))
 subject = str(input("Enter Message Subject: ")) 
-message_body = str(input("Enter your message"))
+message_body = str(input("Enter your message: "))
 
 message = MIMEText(message_body)
 message['Subject'] = subject
